@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(()=>{const e=document.querySelector(".back-to-top");window.addEventListener("scroll",(()=>{window.scrollY>300?e.classList.add("visible"):e.classList.remove("visible")})),e.addEventListener("click",(()=>{window.scrollTo({top:0,behavior:"smooth"})}));const t=document.getElementById("year");t&&(t.textContent=(new Date).getFullYear())}));
